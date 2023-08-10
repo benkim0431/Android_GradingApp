@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnterGradesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="@string/enter_grades"
+            android:textColor="@color/white"
+
+            android:layout_marginTop="20dp"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textColor="@color/white"
+
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:layout_marginTop="5dp"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:background="@drawable/border"
+            android:hint="@string/enter_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/program"
+            android:textColor="@color/white"
+
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edtProg"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:layout_marginTop="5dp"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:background="@drawable/border"
+            android:hint="@string/enter_program" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/course1"
+            android:textColor="@color/white"
+
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edtCourse1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/enter_course1_grade"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/border"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/course2"
+            android:textColor="@color/white"
+
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edtCourse2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/enter_course2_grade"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/border"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/course3"
+            android:textColor="@color/white"
+
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/edtCourse3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/enter_course3_grade"
+            android:ems="10"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/border"
+            android:inputType="number" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/course4"
+            android:textColor="@color/white"
+
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/edtCourse4"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/enter_course4_grade"
+            android:ems="10"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/border"
+            android:inputType="number" />
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</FrameLayout>
